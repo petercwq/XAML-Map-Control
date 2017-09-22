@@ -251,7 +251,7 @@ namespace MapControl
         {
             updateTimer.Stop();
 
-            if (parentMap != null && parentMap.MapProjection.IsWebMercator)
+            if (parentMap != null && parentMap.MapProjection.IsWebMercator && parentMap.ZoomLevel < MaxZoomLevel + 2)
             {
                 var tileGrid = GetTileGrid();
 

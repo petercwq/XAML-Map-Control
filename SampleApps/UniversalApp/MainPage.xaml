@@ -100,7 +100,7 @@
             <RowDefinition/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <map:Map x:Name="map" MinZoomLevel="2" MaxZoomLevel="20" ZoomLevel="11" ManipulationMode="All"
+        <map:Map x:Name="map" MinZoomLevel="2" MaxZoomLevel="26" ZoomLevel="11" ManipulationMode="All"
                  Center="{x:Bind ViewModel.MapCenter, Mode=TwoWay}"
                  MapLayer="{x:Bind ViewModel.MapLayers.CurrentMapLayer, Mode=OneWay}"
                  MapProjection="{Binding SelectedValue, ElementName=projectionComboBox,

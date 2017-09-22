@@ -30,7 +30,7 @@ namespace MapControl
     /// </summary>
     public partial class MapBase : MapPanel
     {
-        private const double MaximumZoomLevel = 22d;
+        private const double MaximumZoomLevel = 26d;
 
         public static readonly DependencyProperty MapLayerProperty = DependencyProperty.Register(
             nameof(MapLayer), typeof(UIElement), typeof(MapBase),
